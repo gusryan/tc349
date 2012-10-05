@@ -1,0 +1,24 @@
+Chartbeat appears to be a statistics company that focuses on integrating parsed and company-specific Internet data 
+with a heavy dose of cool. It then packages that data and sells it back to corporations, providing a unique lens 
+into an organization's Internet presence (and prevalence) as it relates to the corporate name and brand. 
+Chartbeat focuses on the Internet's "view" of your corporate brand by monitoring and measuring its presence and 
+activity on the Internet through a variety of channels, including Twitter links and mentions (@) and Site Shares 
+on Facebook. As this data is captured in real time, it's packaged up and rendered to the customer through a
+jam-packed portal that is loaded with interesting data related to the customer's corporate brand.
+
+The portal itself is a no-frills layout that focuses almost exclusively on the really good stuff: the data. There's 
+tons of negative space, forcing viewer focus onto the data and not the design. The data is pulled in from a variety 
+of vectors and is primarily laid out in a dashboard scheme that provides a quick snapshot of the most relevant
+data points. From there, users can drill down into various sub-sections to take a closer look at the details.
+Sections include those that focus on the content being viewed, shared, etc, around the Internet, and the social 
+sites where mentions are being seen (pinterest, stumble upon, facebook, twitter). Additionally, the portal offers 
+another level of detail regarding traffic sources (e.g., top links, top search terms) and also boasts a Geo link, 
+which contributes to the cool factor by reverse engineering the users IP address to map that to the user's 
+"global location" (or at least to that of the nearest CO/POP of the user's ISP).
+
+In all, chartbeat looks like a great tool for organizations to monitor and understand how and where the corporate 
+brand is moving across the Internet. We've learned in other courses that user feedback is among the most important 
+factors people use when forming an opinion about an organization/facebook page/twitter posture, and Chartbeat looks 
+like a viable means for organizations to measure user opinion and feedback on the corporate brand. This in addition 
+to the more transparent use of seeing exactly when and where messaging about the organzation is flowing across the 
+expanses of the ever-changing Internet.
