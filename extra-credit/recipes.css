@@ -1,0 +1,35 @@
+/* CSS Document */
+
+body {
+	margin: 0;
+	font-family: "news-gothic-sd-1","news-gothic-std-2";
+	line-height: 1.4em;
+}
+h1 {
+	background: url(img/logo.jpg) center no-repeat;
+	margin: 10px 10px 10px 10px;
+	height: 100px;
+}
+h2 {
+	padding:0 0 0 5px;
+}
+.container {
+	width: 800px;
+	margin: 0 auto;
+		border-top: 4px solid #FDA;
+}
+section {
+  	width: 480px;
+  	margin-right: 25px;
+  	float: left;
+  	
+  }
+  aside {
+  	margin-top:5px;
+  	width: 260px;
+  	float: right;
+  }
+   footer {
+  	clear: both;
+  	border-top: 5px solid #FDA;
+  }
