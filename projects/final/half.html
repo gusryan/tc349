@@ -4,59 +4,118 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Half Marathons</title>
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">$(document).ready(function(){var myRace = $('#bysh');
+myRace.hide();
+$('.button').click(function(){myRace.show(500);});
+});</script>
+    <script type="text/javascript">$(document).ready(function(){var myRace = $('#bysh');
+myRace.hide();
+$('.button4').click(function(){myRace.hide();});
+});</script>
 
-<link rel="stylesheet" href="css/races.css" type="text/css">
+    <script type="text/javascript">$(document).ready(function(){var myRace = $('#CVX');
+myRace.hide();
+$('.button1').click(function(){myRace.show(500);});
+});</script>
+
+    <script type="text/javascript">$(document).ready(function(){var myRace = $('#CVX');
+myRace.hide();
+$('.button5').click(function(){myRace.hide();});
+});</script>
+
+
+<script type="text/javascript">$(document).ready(function(){var myRace = $('#duo');
+myRace.hide();
+$('.button2').click(function(){myRace.show(500);});
+});</script>
+    <script type="text/javascript">$(document).ready(function(){var myRace = $('#duo');
+myRace.hide();
+$('.button6').click(function(){myRace.hide();});
+});</script>
+
+<script type="text/javascript">$(document).ready(function(){var myRace = $('#Det');
+myRace.hide();
+$('.button3').click(function(){myRace.show(500);});
+});</script>
+   <script type="text/javascript">$(document).ready(function(){var myRace = $('#Det');
+myRace.hide();
+$('.button7').click(function(){myRace.hide();});
+});</script>
+
 </head>
 
 <body>
-<div class="container">
- <h1>Miles of Michigan</h1>
- <ul id="nav">
-<li><a href="index.html">Home</a></li>
-<li><a href="half.html">Half Marathons</a></li>
-<li><a href="others.html">Other Races</a></li>
-<li><a href="monthlymiles.html">Monthly Miles</a></li>
+<div class="page-header">
+ <h2>Miles of Michigan</h2>
+ </div>
+ 
+<ul class="nav nav-tabs">
+	<li><a href="index.html">Home</a></li>
+	<li class="active"><a href="half.html">Half Marathons</a></li>
+	<li><a href="others.html">Other Races</a></li>
+	<li><a href="monthlymiles.html">Monthly Miles</a></li>
 </ul>
 
 <section>
-
-  	<h2>Half Marathons</h2>
-     <article><a href="http://www.bayshoremarathon.org/">Bayshore</a>
-     	<ul>
-     		<li>Location: Traverse City, MI</li>
-     		<li>Date: May 25, 2012</li>
-     		<li>Distance: 13.1 Miles</li>
-     		<li><a href="img/2012-bayshore-coursemap.pdf">Map</a></li>
+	
+	<h3>Half Marathons</h3>
+<p><a href="#" class="button">Bayshore</a></p>
+	<blockquote id="bysh">
+		<a href="#" class="button4">×</a>
+		<article><a href="http://www.bayshoremarathon.org/">Bayshore Half Marathon</a>
+     		<ul>
+	     		<li>Location: Traverse City, MI</li>
+	     		<li>Date: May 25, 2012</li>
+	     		<li>Distance: 13.1 Miles</li>
+	     		<li><a href="img/2012-bayshore-coursemap.pdf">Map</a></li>
+        	</ul>
+     	</article>
+    </blockquote>	
+	
+		<p><a href="#" class="button1">Charlevoix</a></p>
+	<blockquote id="CVX">
+		<a href="#" class="button5">×</a>
+		<article>
+			<ul><a href="http://www.charlevoixmarathon.com/">CVX</a>
+	     		<li>Location: Charlevoix, MI</li>
+	     		<li>Date: June 23, 2012</li>
+	     		<li>Distance: 13.1 Miles</li>
+	     		<li><a href="http://www.charlevoixmarathon.com/wp-content/uploads/2012/02/Charlevoix_Half_Map.jpg">Map</a></li>
      		</ul>
-     </article>
-     <article><a href="http://www.charlevoixmarathon.com/">CVX</a>
-      	<ul>
-     		<li>Location: Charlevoix, MI</li>
-     		<li>Date: June 23, 2012</li>
-     		<li>Distance: 13.1 Miles</li>
-     		<li><a href="http://charlevoixmarathon.com/wp-content/uploads/2012/02/Charlevoix_Half_Map.jpg">Map</a></li>
+		</article>
+    </blockquote>
+    
+	<p><a href="#" class="button2">Duo at the Ledge</a></p>
+	<blockquote id="duo">
+				<a href="#" class="button6">×</a>
+		<article><a href="http://www.runningfoundation.com/Duo_at_The_Ledge.html">Duo at the Ledge</a>
+     		<ul>
+	     		<li>Location: Grand Ledge, MI</li>
+	     		<li>Date: July 7, 2012</li>
+	     		<li>Distance: 13.1 Miles</li>
+	     		<li><a href="img/duo-half.pdf">Map</a></li>
      		</ul>
-      	</article>
-      	 <article><a href="http://www.charlevoixmarathon.com/">Duo at the Ledge</a>
-      	<ul>
-     		<li>Location: Grand Ledge, MI</li>
-     		<li>Date: July 7, 2012</li>
-     		<li>Distance: 13.1 Miles</li>
-     		<li><a href="img/duo-half.pdf">Map</a></li>
-     		</ul>
-      	</article>
-      <article><a href="http://www.freepmarathon.com/">Detroit Marathon</a>
+ 	   	</article>
+    </blockquote>
+   	
+   	 <p><a href="#" class="button3">Detroit</a></p>
+	<blockquote id="Det">
+				<a href="#" class="button7">×</a>
+			<article><a href="http://www.freepmarathon.com">Detroit Half Marathon</a>
       		<ul>
-     		<li>Location: Detroit, MI</li>
-     		<li>Date: October 21, 2012</li>
-     		<li>Distance: 13.1 Miles</li>
-     		<li><a href="http://www.freepmarathon.com/wp-content/uploads/2012/10/2012-Course-Map-1133x733.jpg">Map</a></li>
+	     		<li>Location: Detroit, MI</li>
+	     		<li>Date: October 21, 2012</li>
+	     		<li>Distance: 13.1 Miles</li>
+	     		<li><a href="http://www.freepmarathon.com/wp-content/uploads/2012/10/2012-Course-Map-1133x733.jpg">Map</a></li>
      		</ul>
-      	
-      	</article>
-     
+      		</article>
+    </blockquote>
 </section>
- 
- </div>
-</body>
+ <footer></footer>
+ </body>
 </html>

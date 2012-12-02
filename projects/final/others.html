@@ -4,48 +4,95 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Other Races</title>
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.js"></script>
 
-<link rel="stylesheet" href="css/races.css" type="text/css">
+    <script type="text/javascript">$(document).ready(function(){var myRace = $('#b10k');
+myRace.hide();
+$('.button').click(function(){myRace.show(500);});
+});</script>
+    <script type="text/javascript">$(document).ready(function(){var myRace = $('#b10k');
+myRace.hide();
+$('.button1').click(function(){myRace.hide();});
+});</script>
+
+    <script type="text/javascript">$(document).ready(function(){var myRace = $('#crim');
+myRace.hide();
+$('.button2').click(function(){myRace.show(500);});
+});</script>
+
+    <script type="text/javascript">$(document).ready(function(){var myRace = $('#crim');
+myRace.hide();
+$('.button3').click(function(){myRace.hide();});
+});</script>
+
+
+<script type="text/javascript">$(document).ready(function(){var myRace = $('#mac8');
+myRace.hide();
+$('.button4').click(function(){myRace.show(500);});
+});</script>
+    <script type="text/javascript">$(document).ready(function(){var myRace = $('#mac8');
+myRace.hide();
+$('.button5').click(function(){myRace.hide();});
+});</script>
+
+
 </head>
 
 <body>
-<div class="container">
- <h1>Miles of Michigan</h1>
- <ul id="nav">
+
+<div class="page-header">
+ <h2>Miles of Michigan</h2>
+ </div>
+ 
+<ul class="nav nav-tabs">
 <li><a href="index.html">Home</a></li>
 <li><a href="half.html">Half Marathons</a></li>
-<li><a href="others.html">Other Races</a></li>
+<li class="active"><a href="others.html">Other Races</a></li>
 <li><a href="monthlymiles.html">Monthly Miles</a></li>
 </ul>
 
 <section>
-
-  	<h2>Other Races</h2>
-     <article><a href="http://www.btnbig10k.com/">BTN 10K*</a>
+  	<h3>Other Races</h3>
+ <p><a href="#" class="button">BTN 10K</a></p>
+	<blockquote id="b10k">
+		<a href="#" class="button1">×</a>
+     <article><a href="http://www.btnbig10k.com/">BTN 10K</a>
      	<ul>
      		<li>Location: Chicago, IL</li>
      		<li>Date: July 31, 2012</li>
      		<li>Distance: 10 Kilometers (6.2 miles)</li>
-     		</ul>
+     	</ul>
+   <span class="badge badge-info">note</span> Race not held in MI.  	
      </article>
-      <article><a href="http://www.crim.org/race/">The Crim</a>
+ </blockquote>
+ <p><a href="#" class="button2">The Crim</a></p>
+	<blockquote id="crim">
+		<a href="#" class="button3">×</a>    
+        <article><a href="http://www.crim.org/race/">The Crim</a>
       	<ul>
      		<li>Location: Flint, MI</li>
      		<li>Date: August 25, 2012</li>
      		<li>Distance: 10 Miles</li>
-     		</ul>
-      	</article>
-      <article><a href="http://www.runmackinac.com/42nd_Annual_Mackinac_Island_Eight_Mile_Run___Walk.htm">Mackinac 8</a>
-      		<ul>
+     	</ul>
+     </article>
+ </blockquote>
+     <p><a href="#" class="button4">Mackinac 8</a></p>
+	<blockquote id="mac8">
+		<a href="#" class="button5">×</a>  
+          <article><a href="http://www.runmackinac.com/42nd_Annual_Mackinac_Island_Eight_Mile_Run___Walk.htm">Mackinac 8</a>
+      	<ul>
      		<li>Location: Mackinac Island, MI</li>
      		<li>Date: September 8, 2012</li>
      		<li>Distance: 8 Miles</li>
-     		</ul>
-      	
-      	
+     		
+     	</ul>
       </article>
-     </section>
- <footer><em><strong>*</strong> - denotes race not in Michigan</em></footer>
- </div>
+      </blockquote>
+</section>
+<footer></footer>
+  
 </body>
 </html>

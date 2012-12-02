@@ -4,82 +4,134 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Monthly Miles</title>
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    
+    <script type="text/javascript">$(document).ready(function(){var mySeason = $('#spring');
+mySeason.hide();
+$('.button1').click(function(){mySeason.show(500);});
+});</script>
+    <script type="text/javascript">$(document).ready(function(){var mySeason = $('#spring');
+mySeason.hide();
+$('.button2').click(function(){mySeason.hide();});
+});</script>
 
-<link rel="stylesheet" href="css/races.css" type="text/css">
+    <script type="text/javascript">$(document).ready(function(){var mySeason = $('#summer');
+mySeason.hide();
+$('.button3').click(function(){mySeason.show(500);});
+});</script>
+
+    <script type="text/javascript">$(document).ready(function(){var mySeason = $('#summer');
+mySeason.hide();
+$('.button4').click(function(){mySeason.hide();});
+});</script>
+
+
+<script type="text/javascript">$(document).ready(function(){var mySeason = $('#fall');
+mySeason.hide();
+$('.button5').click(function(){mySeason.show(500);});
+});</script>
+    <script type="text/javascript">$(document).ready(function(){var mySeason = $('#fall');
+mySeason.hide();
+$('.button6').click(function(){mySeason.hide();});
+});</script>
+
+    
 </head>
 
-<body>
-<div class="container">
- <h1>Miles of Michigan</h1>
-<ul id="nav">
+<body>	
+
+
+<div class="page-header">
+ <h2>Miles of Michigan</h2>
+</div>
+
+
+<ul class="nav nav-tabs">
 <li><a href="index.html">Home</a></li>
 <li><a href="half.html">Half Marathons</a></li>
 <li><a href="others.html">Other Races</a></li>
-<li><a href="monthlymiles.html">Monthly Miles</a></li>
+<li class="active"><a href="monthlymiles.html">Monthly Miles</a></li>
 </ul>
 
 <section>
-	<h2>Monthly Miles</h2>
-     <article><strong>Jan - March</strong><ul>
+	<h3>Monthly Miles</h3>
+	
+	<p><a href="#" class="button1">Spring</a></p>
+	<blockquote id="spring">
+		<a href="#" class="button2">×</a>
+     <article><strong>Jan - March</strong>
+     	 <ul>
      		<li>Total Miles: 46.2</li>
      		<li>Avg Distance per run: 3.3</li>
-     		<li class="note">Note: Slow start workin out the winter kinks</li>
-     		</ul>
+     		<li>Note: <em>Slow start workin out the winter kinks</em></li>
+     	  </ul>
      </article>
      <article><strong>April</strong>
-     	<ul>
+     	 <ul>
      		<li>Total Miles: 32</li>
      		<li>Avg Distance per run: 3.55</li>
-     		<li class="note">Note: Weather started to break!!</li>
-     		</ul>
+     		<li>Note: <em>The weather finally started to break!!</em></li>
+     	</ul>
      </article>
      <article><strong>May</strong>
      	<ul>
      		<li>Total Miles: 93.66</li>
      		<li>Avg Distance per run: 6.69</li>
-     		<li class="note">Note: Includes the first race of the year.</li>
-     		</ul>
+     		<li>Note: <em>Includes the first race of the year.</em></li>
+     	</ul>
      </article>
+ </blockquote>
+ 
+ <p><a href="#" class="button3">Summer</a></p>
+	<blockquote id="summer">
+		<a href="#" class="button4">×</a>
      <article><strong>June</strong>
      	<ul>
      		<li>Total Miles: 68.27</li>
      		<li>Avg Distance per run: 6.82</li>
-     		<li class="note">Note: Rest after Bayshore and before CVX.</li>
-     		</ul>
+     		<li>Note: <em>Rest after Bayshore and before CVX.</em></li>
+     	</ul>
      </article>
      <article><strong>July</strong>
      	<ul>
      		<li>Total Miles: 68.21</li>
      		<li>Avg Distance per run: 5.68</li>
-     		<li class="note">Note: HOT. Includes Duo Half Marathon.</li>
-     		</ul>
+     		<li>Note: <em><strong>HOT!</strong> Includes Duo Half Marathon.</em></li>
+     	</ul>
      </article>
      <article><strong>August</strong>
      	<ul>
      		<li>Total Miles: 85.79</li>
      		<li>Avg Distance per run: 5.72</li>
-     		<li class="note">Note: Set PB splits at the Crim.</li>
-     		</ul>
+     		<li>Note: <em>Set PB splits at the Crim.</em></li>
+     	</ul>
      </article>
+ </blockquote>
+ 
+  <p><a href="#" class="button5">Autumn</a></p>
+	<blockquote id="fall">
+		<a href="#" class="button6">x</a>
     <article><strong>September</strong>
      	<ul>
      		<li>Total Miles: 63.77</li>
      		<li>Avg Distance per run: 5.8</li>
-     		<li class="note">Note: Re-set PB splits at the Mackinac Run.</li>
-     		</ul>
+     		<li>Note: <em>Re-set PB splits at the Mackinac Run.</em></li>
+     	</ul>
      </article>
  	<article><strong>October</strong>
      	<ul>
      		<li>Total Miles: 68.2</li>
      		<li>Avg Distance per run: 8.52</li>
-     		<li class="note">Note: Completed the season with a PB at the Detroit Half Marathon.</li>
-     		</ul>
-     </article>
-           
-     
-     
- </section>
- 
- </div>
+        	<li>Note: <em>Completed the season with a PB at the Detroit Half Marathon.</em></li>
+        </ul>
+    </article>
+ </blockquote>
+  </section>
+<footer></footer>
 </body>
+
 </html>
